@@ -13,7 +13,10 @@ struct ContentView: View {
             VStack {
                 Text("This is my root view")
                 NavigationLink(destination: SecondView()) {
-                    Text("Click me!")
+                    Text("Click me for 2nd view!")
+                }
+                NavigationLink(destination: ThirdView()) {
+                    Text("Click me for 3rd view!")
                 }
             }
         }
